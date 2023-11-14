@@ -1,5 +1,5 @@
 import React from 'react';
-import './Cart.scss';
+import './cart.scss';
 
 const Cart = ({ cart, removeFromCart, incrementItem, decrementItem }) => {
   const getTotalPrice = () => {
